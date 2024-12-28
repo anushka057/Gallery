@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    position: relative;
+    font-family: Arial, sans-serif; /* Optional font style */
+    overflow:hidden;
+    
+  }
+  
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ8X21w4c4m60RK-2Hp_BbVfLgwkxerSrnOg&s'); /* Replace with the image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px); /* Adjust blur intensity */
+    z-index: -1; /* Ensures it's behind the content */
+  }
+#head{
+    font-size:35px;
+    margin-right:840px;   
+}
+.home-icon{
+  margin:0%;
+}
+.category-icon {
+  margin:0%;
+}
+.favorite-icon{
+  margin:0%;
+}
+a{
+    font-size:20px;
+    text-decoration:none;
+    margin-right:20px;
+    color:black;
+    font-weight:lighter;
+}
+.search-container{
+  justify-content:center;
+  display:flex;
+  border-radius:2%;
+  overflow:hidden;
+  background-color:white;
+  height:40px;
+  width:600px;
+  margin-left:500px;
+  border-radius:50px 50px 50px 50px;
+  
+  
+}
+.search-input{
+  border:none;
+  padding:10px;
+  flex:1;
+  font-size:20px;
+  outline:none;
+  
+  
+}
+.search-icon{
+  font-size:25px;
+  margin:0;
+}
+.search-button{
+  
+  border:none;
+  background-color: black;
+  color:white;
+  cursor:pointer;
+  font-size:20px;
+  height:40px;
+  width:130px;
+  border-radius:0 5px 5px 0;
+}
+.search-button:hover{
+  background-color:skyblue;
+}
+h1{
+  font-size:50px;
+  color:black;
+  text-align:center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  width: 90%;
+  max-width: 1500px;
+  height:450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-left:57px;
+  overflow-y: auto;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+

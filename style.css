@@ -26,7 +26,8 @@ body {
   }
 #head{
     font-size:35px;
-    margin-right:845px;  
+    margin-right:740px; 
+    color:rgb(5, 5, 215);     
 }
 .home-icon{
   margin:0%;
@@ -34,7 +35,13 @@ body {
 .category-icon {
   margin:0%;
 }
-.favorite-icon{
+.wishlist-icon{
+  margin:0%;
+}
+.download-icon{
+  margin:0%;
+}
+.lightmode-icon{
   margin:0%;
 }
 a{
@@ -47,13 +54,13 @@ a{
 .search-container{
   justify-content:center;
   display:flex;
-  border-radius:2%;
+  border-radius:4%;
   overflow:hidden;
   background-color:white;
   height:40px;
   width:600px;
-  margin-left:450px;
-  border-radius:5px 5px 5px 5px;  
+  margin-left:460px;
+  border-radius:10px 10px 10px 10px;    
 }
 .search-input{
   border:none;
@@ -73,16 +80,16 @@ a{
   cursor:pointer;
   font-size:20px;
   height:40px;
-  width:130px;
-  border-radius:0 5px 5px 0;  
+  width:100px;
+  border-radius:0 10px 10px 0;  
 }
 .search-button:hover{
-  background-color:skyblue;
+  background-color:blue;
 }
 h1{
   font-size:50px;
-  color:black;
-  text-align:center;  
+  color:black; 
+  text-align:center;    
 }
 .gallery {
   display: grid;
